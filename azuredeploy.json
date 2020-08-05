@@ -257,7 +257,7 @@
                 "GeneralPurpose",
                 "MemoryOptimized"
             ],
-            "defaultValue": "MemoryOptimized",
+            "defaultValue": "GeneralPurpose",
             "metadata": {
                 "description": "MySql/Postgresql sku tier"
             },
