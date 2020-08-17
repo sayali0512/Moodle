@@ -8,6 +8,7 @@ function get_setup_params_from_configs_json
 
     #(dpkg -l jq &> /dev/null) || (apt -y update; apt -y install jq)
 	apt -y update
+     	apt-get upgrade -y
 	apt -y install jq
 	
     # Wait for the cloud-init write-files user data file to be generated (just in case)
